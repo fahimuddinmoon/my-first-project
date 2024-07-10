@@ -1,0 +1,287 @@
+.azeret-mono-normal{
+   font-family: "Azeret Mono", monospace;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+   font-style: normal;
+ }
+
+nav{
+    height: 130px;
+    display: flex;
+   margin: 20px 70px;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+nav h1{
+    font-size: 40px;
+}
+nav .btn{
+    padding: 10px 20px;
+    font-size:17px;
+}
+.intro{
+    height: 720px;
+    max-width: 1700px;
+   background-image: url("../assets/Hero-bg.png");
+   text-align: center;
+  
+   justify-content: center;
+}
+.intro .intro-2{
+    width: 1000px;
+    margin: 0px auto;
+}
+.intro .intro-2 img{
+    
+    margin-top: 40px;
+}
+.intro .intro-2 h2{
+  font-size: 60px;
+}
+.intro .intro-2 p{
+    font-size: 20px;
+
+}
+.intro .intro-2 button{
+    font-size: 20px;
+    padding: 25px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;}
+ .btn1{
+    margin-top: 30px;
+ }
+ .question{
+  height: 1060px; 
+    margin: 70px;
+    max-width: 1800px;
+    padding: 0px auto;
+    background-color:rgba(241, 237, 237, 0.973);
+}
+.question1{
+     text-align: center;
+     justify-content: center;
+     width: 800px;
+     margin: 0px auto;
+}
+ .question1 h1{
+    font-size: 40px;
+ }
+ .question1 p{
+    font-size: 17px;
+ }
+ .question2{
+    height: 250px;
+    width: 900px;
+    background-color: white;
+    margin: 0px auto;
+    padding:  5px 5px 5px 5px;
+    border-radius: 15px;
+    text-align: left;
+    background-image: url("../assets/Layer_1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ .question2 h3{
+font-size: 30px;
+
+ }
+ .question2 p{
+    font-size: 17px;
+ }
+ .question2 button{
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+ }
+ .question3 h3{
+    font-size: 30px;
+ }
+.question3 p{
+    font-size: 17px; 
+}
+.question3 button{
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+}
+ .question4 h3{
+    font-size: 30px;
+ }
+.question4 p{
+    font-size: 17px; 
+}
+.question4 button{
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.question3{
+    height: 250px;
+    width: 900px;
+    background-color:  white;
+    margin:  0px auto;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
+    text-align: right;
+    background-image: url("../assets/Group\ 3.png");
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+ .question4{
+    height: 250px;
+    width: 900px;
+    background-color: white;
+    margin: 0px auto;
+    padding:  5px 5px 5px 5px;
+    border-radius: 15px;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../assets/Group\ 4.png")
+    
+ }
+ .conatiner div{
+    margin-bottom: 40px;
+ }
+ .inspire{
+    max-width:1800px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 5%;
+    
+ }
+ .inspire h3{
+    font-size: 30px;
+
+ }
+ .inspire p{
+font-size: 17px;
+ }
+ .video1{
+   border: 10px solid rgb(228, 224, 224);
+   border-radius: 10px;
+   margin: 10px;
+   
+}
+.current{
+   text-align: center;
+   justify-content: center;
+}
+
+.current h3{
+    font-size: 30px;
+}
+.current p{
+   font-size: 17px;
+}
+.more{
+   text-decoration: underline;
+  font-weight: bolder;
+}
+.box-html{
+   width: 250px;
+   background-color: rgb(191, 241, 241);
+   padding: 25px 25px;
+   border-radius: 10px;
+}
+.box-css{
+   width: 250px;
+   background-color: rgb(125, 235, 143);
+   padding: 25px 25px;
+   border-radius: 10px;
+}
+.box-jv{
+   width: 250px;
+   background-color: rgb(241, 191, 219);
+   padding: 25px 25px;
+   border-radius: 10px;
+}
+.box-container{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin: 60px 30px;
+}
+.target h3{
+   font-size: 30px;
+}
+.target p{
+   font-size: 17px;
+}
+.target{
+   text-align: center;
+   justify-content: center;
+}
+
+.img-box{
+ padding-right: 50px;
+  
+}
+
+.react-container{
+   width: 900px;
+   border: 2px solid black;
+   border-radius: 10px;
+   margin: 0px auto;
+   padding: 10px 0px 10px 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ .target-container{
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+ }
+ .bannar{
+   height: 300px;
+   width: 970px;
+   margin: 60px auto;
+   border-radius: 10px;
+   background-image: url("../assets/handshake.jpg");
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   justify-content: center;
+ 
+ }
+ .bannar-container h3{
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 50px;
+ }
+.bannar-container p{
+   color: aliceblue;
+   font-size: 17px;
+   padding-bottom: 20px;
+}
+.bannar-container input{
+   
+   padding: 10px 190px 10px 0px;
+   border-radius: 10px;
+   border: none;
+}
+.bannar-container button{
+   padding: 10px 25px;
+   font-size: 15px;
+   font-weight: bolder;
+   border-radius: 10px;
+   border: none;
+}
+.foot p{
+   font-size: 20px;
+   font-weight: bolder;
+}
+.foot ul{
+   display: flex;
+   list-style: none;
+   gap: 20px;
+
+}
+.foot{
+   background-color: rgb(237, 237, 247);
+   height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
